@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>This is HTML Form</h2>
+    <form action="#">
+        <div>
+            Name: <input type="text" name="myName">
+        </div><br>
+        <div>
+            Gender:<input type="radio" name="myGender" id="Male">
+            <Label for="Male">Male</Label>
+            <input type="radio" name="myGender" id="Female">
+            <Label for="Female">Female</Label>
+            <input type="radio" name="myGender" id="Others">
+            <Label for="Others">Others</Label>
+        </div><br>
+        <div>
+            Role: <input type="text" name="myRole">
+        </div><br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div><br>
+        <div>
+            Date of Appointment: <input type="date" name="myDate">
+        </div><br>
+        <div>
+            Bonus: <input type="number" name="myBonus">
+        </div><br>
+        <div>
+            <label for="Car">Cars:</label>
+            <select name="myCar" id="Car">
+                <option value="Select" selected>-Select One-</option>
+                <option value="Swift"> Maruti Swift</option>
+                <option value="Seltos" > Kia Seltos</option>
+            </select>
+        </div><br>
+        <div>
+            Password: <input type="password" name="myPassword">
+        </div><br>
+        <div>
+            Write about yourself: <br><textarea name="myText" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+
+        <div>
+            <input type="checkbox" name="myTerms & Conditions" id="terms">
+            <label for="terms">Read Terms & Conditions</label>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+
+</html>
